@@ -1,4 +1,4 @@
-package com.example.littletoy
+package com.example.TinyDroidToy
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity

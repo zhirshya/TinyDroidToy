@@ -1,4 +1,4 @@
-package com.example.littletoy
+package com.example.TinyDroidToy
 
 import android.os.Handler
 import android.os.Message

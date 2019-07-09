@@ -1,4 +1,4 @@
-package com.example.littletoy
+package com.example.TinyDroidToy
 
 import org.junit.Test
 
