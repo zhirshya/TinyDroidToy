@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ᠪᠢᠴᠢᠯ ᠲᠣᠭᠯᠤᠭᠠᠮ</string>
+    <string name="waliyut">валютᠸᠠᠯᠢᠶᠦ᠋ᠲ᠂ᠸᠠᠯᠢᠶᠦᠲ</string>
+    <string name="waliyut_wrench">ᠬᠦᠷᠪᠡᢉᠴᠢ ᠸᠠᠯᠢᠶᠦᠲ</string>
+    <string name="dollar_hint">ᠳᠣᠯᠯᠠᠷ</string>
+    ‍<string name="default_greeting_text">ᠬᠣᠷᠸᠠ, ᠻᠢᠷᠢᠯᠯ, ᠿᠦᠷᠨᠠᠯ(журнал), ᠿᠦᠻᠣᠸ(Жуков)</string>
+
+    ‍<string name="str_menu01">ᠴᠡᠰ᠕</string>
+    ‍<string name="str_menu02">ᠴᠡᠰ᠗</string>
+
+</resources>
