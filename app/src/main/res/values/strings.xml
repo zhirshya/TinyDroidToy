@@ -1,11 +1,35 @@
 <resources>
+<!--frangment left-->
     <string name="app_name">ᠪᠢᠴᠢᠯ ᠲᠣᠭᠯᠤᠭᠠᠮ</string>
-    <string name="waliyut">валютᠸᠠᠯᠢᠶᠦ᠋ᠲ᠂ᠸᠠᠯᠢᠶᠦᠲ</string>
-    <string name="waliyut_wrench">ᠬᠦᠷᠪᠡᢉᠴᠢ ᠸᠠᠯᠢᠶᠦᠲ</string>
-    <string name="dollar_hint">ᠳᠣᠯᠯᠠᠷ</string>
-    ‍<string name="default_greeting_text">ᠬᠣᠷᠸᠠ, ᠻᠢᠷᠢᠯᠯ, ᠿᠦᠷᠨᠠᠯ(журнал), ᠿᠦᠻᠣᠸ(Жуков)</string>
+    <string name="currency">валютᠸᠠᠯᠢᠶᠦ᠋ᠲ᠂ᠸᠠᠯᠢᠶᠦᠲ</string>
+    <string name="currencyEditTextHint">5000(CNY)</string>
+    <string name="convertTo">ᠬᠦᠷᠪᠡᢉᠴᠢ ᠸᠠᠯᠢᠶᠦᠲ:</string>
+    <string name="dollar">ᠳᠣᠯᠯᠠᠷ</string>
+    <string name="ruble">ᠷᠦᠪᠯᠢ</string>
+    <string name="euro">ᠡ᠎ᠡᠪᠷᠣ</string>
+    <string name="jpy">ᠶᠠᠫᠤᠨ ᠶ᠎ᠡᠨ</string>
+    <string name="currencyConvert">fetch exchange</string>
+    <string name="clearTextEdit">ᠠᠷᠢᠯᠭᠠ᠋</string>
 
-    ‍<string name="str_menu01">ᠴᠡᠰ᠕</string>
-    ‍<string name="str_menu02">ᠴᠡᠰ᠗</string>
+<!--frangment right-->
+    <string name="greeting">Your life meaning?! ᠬᠣᠷᠸᠠ, ᠻᠢᠷᠢᠯᠯ, ᠿᠦᠷᠨᠠᠯ(журнал), ᠿᠦᠻᠣᠸ(Жуков)</string>
+    <string name="reminder">ᠰᠠᠨᠠᠭᠤᠯᠭᠠ᠋</string> ‍<!-- Things most important to you, which you can't afford to forget or even betray!-->
+    <string name="openCarrefourApp">ᠻᠠᠷ᠎ᠡᠹᠤᠦᠷ ᠢ ᠨᠡᢉᠡᢉᠡ</string> ‍<!-- open Carrefour app to click points!-->
+
+‍‍‍<!--
+    Effective and efficient reading;
+    Work hard on TDD, C++, Kotlin, RxJava, scrum, CI/CD, docker, kubernetes, Clean Code, TBB, JavaScript; English, Mongolian;
+    software design and architecture;
+    Writing, Public Speaking;
+    Weight-lifting, triceps, shoulders;
+    Reading Dostoevsky, Tolstoy, etc.;
+    Continuously upgrading my meaning and missions of living;
+    Stop making things and my circumstances worse!
+    Learn from your regrets and others' mistakes!
+
+    <string name="str_menu01">ᠴᠡᠰ᠕</string>
+    ‍
+    <string name="str_menu02">ᠴᠡᠰ᠗</string>
+-->
 
 </resources>
