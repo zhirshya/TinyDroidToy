@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     android:orientation="vertical">
 
     <TextView
@@ -18,8 +17,9 @@
         android:textSize="14sp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        />
+        app:layout_constraintEnd_toStartOf="@+id/cnyAmount"
+        app:layout_constraintBottom_toTopOf="@+id/dollarCheckBox"/>
+
     <EditText
         android:id="@+id/cnyAmount"
         android:layout_width="match_parent"
@@ -27,30 +27,37 @@
         android:inputType="number"
         android:ems="10"
         android:hint="@string/currencyEditTextHint"
+        android:textSize="14sp"
         android:layout_marginTop="2dp"
         android:layout_marginStart="2dp"
         android:layout_marginEnd="2dp"
         android:layout_marginBottom="2dp"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
-        />
+        app:layout_constraintBottom_toTopOf="@+id/dollarCheckBox"/>
 
     <CheckBox
         android:id="@+id/dollarCheckBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/dollar"
+        android:checked="true"
         android:layout_marginTop="2dp"
-        android:textSize="14sp"/>
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cnyAmount"/>
 
     <CheckBox
         android:id="@+id/rubleCheckBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/ruble"
+        android:checked="true"
         android:layout_marginTop="2dp"
-        android:textSize="14sp"/>
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dollarCheckBox"/>
 
     <CheckBox
         android:id="@+id/euroCheckBox"
@@ -58,7 +65,9 @@
         android:layout_height="wrap_content"
         android:text="@string/euro"
         android:layout_marginTop="2dp"
-        android:textSize="14sp"/>
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rubleCheckBox"/>
 
     <CheckBox
         android:id="@+id/jpyCheckBox"
@@ -66,21 +75,31 @@
         android:layout_height="wrap_content"
         android:text="@string/jpy"
         android:layout_marginTop="2dp"
-        android:textSize="14sp"/>
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/euroCheckBox"/>
 
     <Button
         android:id="@+id/fragmentLeftButtonCurrencyConvert"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/currencyConvert"
-        />
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jpyCheckBox"
+        app:layout_constraintEnd_toStartOf="@+id/fragmentLeftButtonClearTextEdit"
+        app:layout_constraintBottom_toTopOf="@+id/fxValue"/>
 
     <Button
         android:id="@+id/fragmentLeftButtonClearTextEdit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/clearTextEdit"
-        />
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/fragmentLeftButtonCurrencyConvert"
+        app:layout_constraintTop_toBottomOf="@+id/jpyCheckBox"
+        app:layout_constraintBottom_toTopOf="@+id/fxValue"
+        app:layout_constraintEnd_toEndOf="parent"/>
 
     <EditText
         android:id="@+id/fxValue"
@@ -90,10 +109,9 @@
         android:layout_marginStart="2dp"
         android:layout_marginEnd="2dp"
         android:layout_marginBottom="2dp"
-        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@+id/fragmentLeftButtonCurrencyConvert"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-
-        />
+        app:layout_constraintEnd_toEndOf="parent"/>
 
 </LinearLayout>

@@ -5,16 +5,22 @@ import android.support.v7.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
-import com.google.gson.Gson
 
 import kotlinx.android.synthetic.main.activity_main.*
+
+/*
+floating action button (FAB)
+ */
 
 class MainActivity : AppCompatActivity() {
 //https://www.xe.com/currencyconverter/convert/
 // "utf-8"
+    init {
+    //    https://khttp.readthedocs.io/en/latest/user/quickstart.html
+    //        khttp is an elegant and simple HTTP library for Kotlin and Java, built for human beings.
+    }
 
     private final var payload: Map<String, String>  = mapOf("Amount" to "1", "From" to "USD", "To" to "CNY")
-
 //    private var r: Response?
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -23,10 +29,9 @@ class MainActivity : AppCompatActivity() {
 
 //            var str:String = URL("http://httpbin.org/ip").readText()
 //            Get our IP
-
         }
 
-    fun convertCurrency(view: View) {
+    /*fun convertCurrency(view: View) {
         if(waliutText.text.isNotEmpty()) {
             val waliutValue = waliutText.text.toString().toFloat()
             //https://www.xe.com/currencyconverter/convert/?Amount=1&From=USD&To=CNY
@@ -35,14 +40,9 @@ class MainActivity : AppCompatActivity() {
         }else {
             waliutText2.setText("")
         }
-    }
+    }*/
 
-    init {
-//    https://khttp.readthedocs.io/en/latest/user/quickstart.html
-//        khttp is an elegant and simple HTTP library for Kotlin and Java, built for human beings.
-    }
-
-    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+    /*override fun onCreateOptionsMenu(menu: Menu): Boolean {
         // Inflate the menu; this adds items to the action bar if it is present.
         menuInflater.inflate(R.menu.menu_main, menu)
         return true
@@ -56,5 +56,5 @@ class MainActivity : AppCompatActivity() {
             R.id.start -> true
             else -> super.onOptionsItemSelected(item)
         }
-    }
+    }*/
 }

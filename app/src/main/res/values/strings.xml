@@ -1,5 +1,5 @@
 <resources>
-<!--frangment left-->
+    <!--frangment left-->
     <string name="app_name">ᠪᠢᠴᠢᠯ ᠲᠣᠭᠯᠤᠭᠠᠮ</string>
     <string name="currency">валютᠸᠠᠯᠢᠶᠦ᠋ᠲ᠂ᠸᠠᠯᠢᠶᠦᠲ</string>
     <string name="currencyEditTextHint">5000(CNY)</string>
@@ -10,13 +10,19 @@
     <string name="jpy">ᠶᠠᠫᠤᠨ ᠶ᠎ᠡᠨ</string>
     <string name="currencyConvert">fetch exchange</string>
     <string name="clearTextEdit">ᠠᠷᠢᠯᠭᠠ᠋</string>
+    <string name="reminderButton">ᠰᠠᠨᠠᠭᠤᠯᠭᠠ᠋</string>
 
-<!--frangment right-->
+    <!--frangment right-->
     <string name="greeting">Your life meaning?! ᠬᠣᠷᠸᠠ, ᠻᠢᠷᠢᠯᠯ, ᠿᠦᠷᠨᠠᠯ(журнал), ᠿᠦᠻᠣᠸ(Жуков)</string>
-    <string name="reminder">ᠰᠠᠨᠠᠭᠤᠯᠭᠠ᠋</string> ‍<!-- Things most important to you, which you can't afford to forget or even betray!-->
-    <string name="openCarrefourApp">ᠻᠠᠷ᠎ᠡᠹᠤᠦᠷ ᠢ ᠨᠡᢉᠡᢉᠡ</string> ‍<!-- open Carrefour app to click points!-->
+    <string name="reminder">ᠰᠠᠨᠠᠭᠤᠯᠭᠠ᠋</string>
+    ‍<!-- Things most important to you, which you can't afford to forget or even betray!-->
+    <string name="openCarrefourButton">ᠻᠠᠷ᠎ᠡᠹᠤᠦᠷ ᠢ ᠨᠡᢉᠡᢉᠡ</string>
 
-‍‍‍<!--
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    ‍<!-- open Carrefour app to click points!-->
+
+    ‍‍‍<!--
     Effective and efficient reading;
     Work hard on TDD, C++, Kotlin, RxJava, scrum, CI/CD, docker, kubernetes, Clean Code, TBB, JavaScript; English, Mongolian;
     software design and architecture;
